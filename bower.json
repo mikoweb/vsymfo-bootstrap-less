@@ -12,10 +12,5 @@
         "vsymfo",
         "less"
     ],
-    "license": "MIT",
-    "ignore": [
-        "bower.json",
-        ".*",
-        "**/.*"
-    ]
+    "license": "MIT"
 }
