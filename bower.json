@@ -14,8 +14,6 @@
     ],
     "license": "MIT",
     "ignore": [
-        "LICENSE",
-        ".bower.json",
-        "bower.json"
+        "LICENSE"
     ]
 }
