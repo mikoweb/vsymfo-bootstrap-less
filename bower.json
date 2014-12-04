@@ -1,6 +1,6 @@
 {
     "name": "vsymfo-bootstrap-less",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/mikoweb/vsymfo-bootstrap-less",
     "authors": [
         "mikoweb <rafal@mikoweb.pl>"
@@ -14,6 +14,8 @@
     ],
     "license": "MIT",
     "ignore": [
-        "LICENSE"
+        "LICENSE",
+        ".bower.json",
+        "bower.json"
     ]
 }
