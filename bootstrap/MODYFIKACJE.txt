@@ -1,3 +1,5 @@
+Bootstrap v3.3.1
+
 I.
 
     0. W przypadku problemów z kompilacją plików LESS pobierz pakiet z https://github.com/enav/bootstrap-lessphp
@@ -5,10 +7,10 @@ I.
     1. bootstrap.less
 
         Na samym końcu dodano:
-        // joomla system styles
+        // system styles
         @import "../system/system.less";
 
-    2. minix.less
+    2. mixins/vendor-prefixes.less
 
         Zmodyfikowano domieszke .placeholder()
         Obsługa pluginu jquery.placeholder
@@ -32,19 +34,16 @@ II. Personalne ustawienia szablonu
 
         dodano @domain-path do @icon-font-path
 
-        zmienion wartości:
-            @font-size-base
-            @line-height-base
-            @headings-line-height
+        zmieniono wartości:
+            @font-size-base: 16px;
+            @line-height-base: 1.35;
+            @headings-line-height: 1.3;
+            @link-hover-decoration: none;
 
     2. scaffolding.less
 
         a {
-          .transition(color .5s);
-          &:hover,
-          &:focus {
-            text-decoration: none;
-          }
+          .transition(color .3s);
         }
 
     3. type.less
